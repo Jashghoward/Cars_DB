@@ -10,6 +10,7 @@ defmodule CarsDb.Application do
     children = [
       # Starts a worker by calling: CarsDb.Worker.start_link(arg)
       # {CarsDb.Worker, arg}
+      Cars.Db.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

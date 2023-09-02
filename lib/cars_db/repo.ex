@@ -1,5 +1,5 @@
-defmodule CarsDB.Repo do
+defmodule CarsDb.Repo do
   use Ecto.Repo,
-  otp_app: :my_app,
+  otp_app: :cars_db,
   adapter: Ecto.Adapters.Postgres
   end
