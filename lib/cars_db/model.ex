@@ -16,5 +16,4 @@ defmodule CarsDb.Model do
     |> cast(params, [:title, :category, :make_id])
     |> validate_required([:title, :category, :make_id])
   end
-
 end
