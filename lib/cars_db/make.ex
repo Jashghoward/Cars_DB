@@ -23,12 +23,9 @@ defmodule CarsDb.MakeContext do
 
   alias CarsDb.{Repo, Make}
 
-
-
   def list_makes do
     all_makes = Repo.all(Make)
     IO.puts("List of all the makes:")
-
     Enum.each(all_makes, fn make ->
       IO.puts("#{make.name}")
     end)
