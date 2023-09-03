@@ -22,7 +22,6 @@ defmodule CarsDb.EngineContext do
 
 
   def list_engines do
-
   end
 
 end
