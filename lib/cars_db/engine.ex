@@ -20,12 +20,13 @@ end
 
 defmodule CarsDb.EngineContext do
 
+  alias CarsDb.{Engine, Repo}
 
-  # def list_engines do
-  #   all_engines = Repo.all(Engine)
-  #   Enum.each(all_engines, fn engine ->
-  #     IO.puts("#{engine.name}")
-  #   end)
-  # end
+  def list_engines do
+    all_engines = Repo.all(Engine)
+    Enum.each(all_engines, fn engine ->
+      IO.puts("#{engine.name}")
+    end)
+  end
 
 end
