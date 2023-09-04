@@ -36,7 +36,6 @@ defmodule CarsDb.MakeContext do
   def create_make(make_name) do
     result = %Make{name: make_name}
     Repo.insert!(result)
-
     IO.puts("#{result}")
   end
 end
