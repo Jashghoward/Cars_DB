@@ -15,7 +15,6 @@ defmodule CarsDb.Engine do
     engine
     |> cast(params, [:type, :capacity, :model_id])
 
-
     |> validate_required([:type, :capacity, :model_id])
   end
 end
