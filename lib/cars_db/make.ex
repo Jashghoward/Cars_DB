@@ -15,8 +15,6 @@ defmodule CarsDb.Make do
     make
     |> cast(params, [:name])
     |> validate_required(:name)
-
-
     |> unique_constraint(:name)
 
 
