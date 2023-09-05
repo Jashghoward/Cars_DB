@@ -1,7 +1,7 @@
 
 
 
-model_params = [
+make_params = [
   %{name: "Toyota"},
   %{name: "Ford"},
   %{name: "Fiat"},
@@ -9,4 +9,8 @@ model_params = [
   %{name: "Mercedes"},
   %{name: "VW"},
   %{name: "Bugatti"}
+]
+
+make_params = [
+  %{name: }
 ]
