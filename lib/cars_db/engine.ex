@@ -5,6 +5,8 @@ defmodule CarsDb.Engine do
 
   schema "engines" do
     field(:type, :string)
+
+
     field(:capaciry, :string)
 
 
