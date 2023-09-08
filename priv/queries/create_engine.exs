@@ -7,4 +7,7 @@ Repo.insert!(new_movie)
 
 
 
+
+
+
 IO.puts("New movie added successfully.")
