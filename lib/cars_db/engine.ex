@@ -13,6 +13,8 @@ defmodule CarsDb.Engine do
 
   def changeset(engine, params \\ %{}) do
     engine
+
+
     |> cast(params, [:type, :capacity, :model_id])
     |> validate_required([:type, :capacity, :model_id])
   end
