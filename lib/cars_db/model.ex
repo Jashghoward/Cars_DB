@@ -4,6 +4,8 @@ defmodule CarsDb.Model do
   alias CarsDb.{Make}
 
   schema "models" do
+
+
     field(:title, :string)
     field(:category, :string)
     timestamps()
