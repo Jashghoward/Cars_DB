@@ -9,7 +9,6 @@ defmodule CarsDb.Model do
     timestamps()
 
 
-
     belongs_to(:make, Make)
   end
 
