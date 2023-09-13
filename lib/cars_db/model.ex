@@ -5,6 +5,9 @@ defmodule CarsDb.Model do
 
   schema "models" do
     field(:title, :string)
+
+
+
     field(:category, :string)
     timestamps()
 
