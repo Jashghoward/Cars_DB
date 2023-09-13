@@ -13,8 +13,6 @@ defmodule CarsDb.Model do
 
   def changeset(model, params \\ %{}) do
     model
-
-
     |> cast(params, [:title, :category, :make_id])
     |> validate_required([:title, :category, :make_id])
   end
