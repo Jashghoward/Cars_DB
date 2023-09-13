@@ -8,6 +8,8 @@ defmodule CarsDb.Model do
     field(:category, :string)
     timestamps()
 
+
+
     belongs_to(:make, Make)
   end
 
