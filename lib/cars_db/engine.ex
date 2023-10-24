@@ -10,8 +10,6 @@ defmodule CarsDb.Engine do
     timestamps()
 
     belongs_to(:model, Model)
-
-
   end
 
 
