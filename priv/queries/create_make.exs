@@ -4,9 +4,6 @@ alias MyTest.{Repo, Movie}
 
 
 new_movie = %Movie{title: "New Movie", category: "Action", shop_id: 1} # Replace 1 with the actual shop ID
-
-
-
 Repo.insert!(new_movie)
 
 
