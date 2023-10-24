@@ -7,7 +7,4 @@ new_movie = %Movie{title: "New Movie", category: "Action", shop_id: 1} # Replace
 Repo.insert!(new_movie)
 
 
-
-
-
 IO.puts("New movie added successfully.")
