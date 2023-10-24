@@ -7,6 +7,8 @@ defmodule CarsDb.Engine do
     field(:type, :string)
     field(:capaciry, :string)
 
+
+
     timestamps()
 
     belongs_to(:model, Model)
