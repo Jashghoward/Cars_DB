@@ -8,6 +8,8 @@ defmodule CarsDb.Make do
     field(:name, :string)
     timestamps()
     has_many(:models, Model)
+
+
   end
 
   def changeset(make, params \\ %{}) do
