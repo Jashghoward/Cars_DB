@@ -6,8 +6,6 @@ defmodule CarsDb.Make do
 
   schema "makes" do
     field(:name, :string)
-
-
     timestamps()
 
 
