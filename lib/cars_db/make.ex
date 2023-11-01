@@ -10,9 +10,6 @@ defmodule CarsDb.Make do
     has_many(:models, Model
 
 
-
-
-
       )
   end
 
