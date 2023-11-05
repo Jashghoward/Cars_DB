@@ -32,8 +32,6 @@ defmodule CarsDb.MakeContext do
 
     Enum.each(all_makes, fn make ->
       IO.puts("#{make.name}")
-
-
     end)
   end
 
