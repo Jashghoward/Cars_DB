@@ -14,11 +14,12 @@ defmodule CarsDb.Make do
   def changeset(make, params \\ %{}) do
     make
     |> cast(params, [:name])
-
     |> validate_required(:name)
     |> unique_constraint(:name)
   end
 end
+
+
 
 defmodule CarsDb.MakeContext do
 
