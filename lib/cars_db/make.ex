@@ -9,6 +9,8 @@ defmodule CarsDb.Make do
     timestamps()
     has_many(:models, Model
       )
+
+
   end
 
   def changeset(make, params \\ %{}) do
