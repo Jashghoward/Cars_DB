@@ -25,6 +25,8 @@ defmodule CarsDb.MakeContext do
 
   alias CarsDb.{Repo, Make}
 
+
+
   def list_makes do
     all_makes = Repo.all(Make)
     IO.puts("List of all the makes:")
