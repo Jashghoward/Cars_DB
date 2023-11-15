@@ -39,6 +39,8 @@ defmodule CarsDb.EngineContext do
   def list_engines do
 
     all_engines = Repo.all(Engine)
+
+
     Enum.each(all_engines, fn engine ->
       IO.puts("#{engine.name}")
     end)
