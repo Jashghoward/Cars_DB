@@ -8,8 +8,6 @@ defmodule CarsDb.Engine do
 
 
     field(:capaciry, :string)
-
-
     timestamps()
     belongs_to(:model, Model)
   end
