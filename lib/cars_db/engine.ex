@@ -10,17 +10,11 @@ defmodule CarsDb.Engine do
     belongs_to(:model, Model)
   end
 
-
-
   def changeset(engine, params \\ %{}) do
     engine
     |> cast(params, [:type, :capacity, :model_id])
     |> validate_required([:type, :capacity, :model_id])
   end
-
-
-
-
 end
 
 defmodule CarsDb.EngineContext do
