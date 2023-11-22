@@ -21,6 +21,10 @@ defmodule CarsDb.Engine do
 
 
     |> validate_required([:type, :capacity, :model_id])
+
+
+
+
   end
 end
 
