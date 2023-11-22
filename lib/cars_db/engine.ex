@@ -4,6 +4,9 @@ defmodule CarsDb.Engine do
   alias CarsDb.{Model}
 
   schema "engines" do
+
+
+
     field(:type, :string)
     field(:capaciry, :string)
     timestamps()
