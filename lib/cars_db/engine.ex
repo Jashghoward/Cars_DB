@@ -7,6 +7,8 @@ defmodule CarsDb.Engine do
     field(:type, :string)
     field(:capaciry, :string)
     timestamps()
+
+
     belongs_to(:model, Model)
 
 
@@ -15,6 +17,9 @@ defmodule CarsDb.Engine do
   def changeset(engine, params \\ %{}) do
     engine
     |> cast(params, [:type, :capacity, :model_id])
+
+
+
     |> validate_required([:type, :capacity, :model_id])
   end
 end
