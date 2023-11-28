@@ -7,9 +7,6 @@ defmodule CarsDb.Repo.Migrations.CreateMakeTable do
 
       add :name, :string
 
-
-
-
       timestamps()
 
 
